@@ -16,27 +16,32 @@
       <span class="search">
         <input class="search-input" type="text" placeholder="검색">
       </span>
-      <span class="icon-list">
-        <img class="icon" src="images/bell-regular.svg"/>                    
-		    <img class="icon" src="images/heart-regular.svg"/>      
-	      <img class="icon" src="images/user-solid.svg"/>                  
-      </span>
+      <img class="icon-list" src="images/icon_list.png"/>                    
     </header>    
 		<!-- IMAGE FEED SECTION -->    
     <section class="feed">
-      <div class="feed-title">likelion_snu</div>
-      <img class="feed-content" src="images/article_img.jpg"/><br> 
+      <div class="feed-header">
+        <img src="images/profile.png"/>
+        <div class="feed-title">likelion_snu</div>
+      </div>
+      <img class="feed-content" src="images/article_img.jpg"/> 
       <div class="feed-footer"> 
-        <img class="icon" src="images/heart-regular.svg"/>
+        <img class="buttons" src="images/feed_buttons.png"/>
         <form method="POST">
-          <input class="comment-input" type="text" placeholder="댓글 달기...">
+          <div class="comment">
+            <img src="images/smile_img.png"/>
+            <input type="text" placeholder="댓글 달기...">
+          </div>
           <button type="submit">게시</button>
         </form>
       </div>
     </section>
     <!-- VIDEO FEED SECTION -->
     <section class="feed">
-      <div class="feed-title">likelion_snu</div>
+      <div class="feed-header">
+        <img src="images/profile.png"/>
+        <div class="feed-title">likelion_snu</div>
+      </div>
       <iframe
         class="feed-content"
         src="https://www.youtube.com/embed/CGcu5rMuKC4" 
@@ -45,16 +50,19 @@
         allowfullscreen>
       </iframe>
       <div class="feed-footer">
-        <img class="icon" src="images/heart-regular.svg"/>
+        <img class="buttons" src="images/feed_buttons.png"/>
         <form method="POST">
-          <input class="comment-input" type="text" placeholder="댓글 달기...">
+          <div class="comment">
+            <img src="images/smile_img.png"/>
+            <input type="text" placeholder="댓글 달기...">
+          </div>
           <button type="submit">게시</button>
         </form>
       </div>
     </section>
     <!-- FOOTER -->
     <footer>
-      © 2021 Instagram from Facebook
+      © 2021 Liongram from Likelion
     </footer>
   </body>
 </html>
