@@ -6,7 +6,8 @@
     <link rel="stylesheet" type="text/css" href="css/instagram.css"/>
   </head>
   <body>
-    <div class = "header">
+		<!-- HEADER -->
+    <header>
       <span class="logo">
         <a href="https://www.instagram.com/">
           <img class="icon" src="images/logo_img.png"/>                    
@@ -20,30 +21,40 @@
 		    <img class="icon" src="images/heart-regular.svg"/>      
 	      <img class="icon" src="images/user-solid.svg"/>                  
       </span>
-    </div>    
-    <div class="feed">
-      <div>likelion_snu</div>
-      <img class="feed-content" src="images/article_img.jpg"/><br>  
-      <img class="icon" src="images/heart-regular.svg"/>
-      <form method="POST">
-        <input class="comment-input" type="text" placeholder="댓글 달기...">
-        <button type="submit">게시</button>
-      </form>
-    </div>
-    <div class="feed">
-      <div>likelion_snu</div>
+    </header>    
+		<!-- IMAGE FEED SECTION -->    
+    <section class="feed">
+      <div class="feed-title">likelion_snu</div>
+      <img class="feed-content" src="images/article_img.jpg"/><br> 
+      <div class="feed-footer"> 
+        <img class="icon" src="images/heart-regular.svg"/>
+        <form method="POST">
+          <input class="comment-input" type="text" placeholder="댓글 달기...">
+          <button type="submit">게시</button>
+        </form>
+      </div>
+    </section>
+    <!-- VIDEO FEED SECTION -->
+    <section class="feed">
+      <div class="feed-title">likelion_snu</div>
       <iframe
         class="feed-content"
         src="https://www.youtube.com/embed/CGcu5rMuKC4" 
         frameborder="0" 
         allow="autoplay; encrypted-media" 
         allowfullscreen>
-      </iframe><br>
-      <img class="icon" src="images/heart-regular.svg"/>
-      <form method="POST">
-        <input class="comment-input" type="text" placeholder="댓글 달기...">
-        <button type="submit">게시</button>
-      </form>
-    </div>
+      </iframe>
+      <div class="feed-footer">
+        <img class="icon" src="images/heart-regular.svg"/>
+        <form method="POST">
+          <input class="comment-input" type="text" placeholder="댓글 달기...">
+          <button type="submit">게시</button>
+        </form>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+      © 2021 Instagram from Facebook
+    </footer>
   </body>
 </html>
