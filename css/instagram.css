@@ -28,7 +28,7 @@ header .logo .icon {
   height: 37px;
 }
 
-header .search .search-input {
+header .search input {
   width: 215px;
   height: 20px;
   padding: 5px;
@@ -66,7 +66,7 @@ header .icon-list {
   border-radius: 100%;
 }
 
-.feed .feed-title {
+.feed .feed-header .feed-title {
   align-content: center;
   height: 30px;
   margin-top: 10px;
@@ -78,38 +78,38 @@ header .icon-list {
 	height: 380px;
 }
 
-.feed-footer {
+.feed .feed-footer {
   height: 90px;
 }
 
-.feed-footer img {
+.feed .feed-footer img {
   width: 120px;
   margin-left: 5px;
 }
 
-.feed-footer form {
+.feed .feed-footer form {
   display: flex;
   justify-content: space-between;
   border-top: 1px solid #D3D3D3; 
   height: 43px;
 }
 
-.feed-footer form .comment {
+.feed .feed-footer form .comment {
   display: flex;
   margin-top: 3px;
 }
 
-.feed-footer form .comment input {
+.feed .feed-footer form .comment input {
   border: none;
   background-color: transparent;
 }
 
-.feed-footer form .comment img {
+.feed .feed-footer form .comment img {
   width: 40px;
   height: 35px;
 }
 
-.feed-footer form button {
+.feed .feed-footer form button {
   border: none;
   background-color: transparent;
   color: #1890ff;
@@ -117,7 +117,7 @@ header .icon-list {
   margin-top: 1px;
 }
 
-.feed-footer form button:focus {
+.feed .feed-footer form button:focus {
   outline: none;
 }
 
