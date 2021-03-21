@@ -115,6 +115,7 @@ header .icon-list {
   color: #1890ff;
   opacity: 0.5;
   margin-top: 1px;
+  margin-right: 5px;
 }
 
 .feed .feed-footer form button:focus {
