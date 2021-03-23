@@ -6,7 +6,7 @@ body {
 }
 
 input:focus {
-  outline: none !important;
+  outline: none;
 }
 
 /* HEADER SECTION */
@@ -21,6 +21,12 @@ header {
   background-color: white;
   border-bottom: 1px solid #D3D3D3; 
   padding: 5px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 header .logo .icon {
@@ -39,10 +45,12 @@ header .search input {
 
 header .icon-list {
   width: 170px;
+  cursor: pointer;
 }
 
 /* FEED SECTION */
 .feed {
+  box-sizing : border-box;
   font-size: 18px;
   width: 50%;
   min-width: 500px;
@@ -67,10 +75,10 @@ header .icon-list {
 }
 
 .feed .feed-header .feed-title {
-  align-content: center;
+  display: flex;
+  align-items: center;
   height: 30px;
-  margin-top: 10px;
-  margin-left: 10px;
+  margin: 5px 0px 5px 10px;
 }
 
 .feed .feed-content {
@@ -85,6 +93,7 @@ header .icon-list {
 .feed .feed-footer img {
   width: 120px;
   margin-left: 5px;
+  cursor: pointer;
 }
 
 .feed .feed-footer form {
@@ -114,8 +123,8 @@ header .icon-list {
   background-color: transparent;
   color: #1890ff;
   opacity: 0.5;
-  margin-top: 1px;
   margin-right: 5px;
+  cursor: pointer;
 }
 
 .feed .feed-footer form button:focus {
